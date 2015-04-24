@@ -1,0 +1,20 @@
+---
+dependencies:
+  - role: colstrom.apt-repository
+    repository_key: "0x3b0153d0383f073d"
+    repository_url: "deb http://ppa.launchpad.net/tsuru/golang/ubuntu {{ ansible_distribution_release }} main"
+galaxy_info:
+  author: "Chris Olstrom"
+  categories:
+    - development
+  company: "TELUS digital"
+  description: "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software."
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: Ubuntu
+      versions:
+        - precise
+        - trusty
+        - utopic
+        - vivid
