@@ -8,7 +8,7 @@ Tunables
 
 Dependencies
 ------------
-* [colstrom.apt-repository](/colstrom/ansible-apt-repository)
+* [colstrom.apt-repository](https://github.com/colstrom/ansible-apt-repository/)
 
 Example Playbook
 ----------------
