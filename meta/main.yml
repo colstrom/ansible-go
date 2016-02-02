@@ -1,8 +1,8 @@
 ---
 dependencies:
   - role: colstrom.apt-repository
-    repository_key: "0x3b0153d0383f073d"
-    repository_url: "deb http://ppa.launchpad.net/tsuru/golang/ubuntu {{ ansible_distribution_release }} main"
+    repository_key: "0xd5495f657635b973"
+    repository_url: "deb http://ppa.launchpad.net/ubuntu-lxc/lxd-stable/ubuntu {{ ansible_distribution_release }} main"
 galaxy_info:
   author: "Chris Olstrom"
   categories:

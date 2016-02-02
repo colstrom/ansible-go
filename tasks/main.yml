@@ -1,4 +1,4 @@
 ---
 - apt:
-    pkg: golang-go
+    pkg: golang
     state: latest
